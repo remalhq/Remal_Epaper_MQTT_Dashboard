@@ -4,8 +4,8 @@
  * @date      Nov 11 2025
  * 
  * @brief     A simple MQTT dashboard for Remal Shabakah v4 (ESP32-C3) with 4.2" e-paper display.
- *            It connects to Wi-Fi, subscribes to all MQTT topics, and displays incoming messages
- *            on the e-paper display with soft-wrapping. It also logs messages to FFat storage
+ *            It connects to Wi-Fi, subscribes to topic defined by SUB_TOPIC, and displays incoming 
+ *            messages on the e-paper display with soft-wrapping. It also logs messages to FFat storage
  *            with a persistent index.
 **/
 #include <WiFi.h>
