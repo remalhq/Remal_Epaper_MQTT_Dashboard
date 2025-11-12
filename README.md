@@ -67,7 +67,7 @@ Most of this code is AI generated, so it doesn't really have our usual polish an
 |----------|-------|
 | **Server** | `mqtt.remal.io` |
 | **Port** | `8885` |
-| **Subscribe Topic** | `remal/<any topic>` <- Remember only to use topics under `remal/` will work! |
+| **Subscribe Topic** | `remal/<any topic>` <- Remember only topics under `remal/` will work! |
 
 Each received message is:
 - Displayed on the e-paper  
